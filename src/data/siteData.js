@@ -317,7 +317,7 @@ const siteData = {
   reviews: {
     heroTitle: [{ text: "Client " }, { text: "Proof.", highlight: true }],
     heroSubtitle: "Real reviews from real businesses. Our work speaks for itself.",
-    ratingBreakdown: [{ stars: 5, count: 42 }, { stars: 4, count: 12 }, { stars: 3, count: 3 }, { stars: 2, count: 1 }, { stars: 1, count: 0 }],
+    ratingBreakdown: { 5: 42, 4: 12, 3: 3, 2: 1, 1: 0 },
     items: [
       { name: "Kudzai Mapfumo", role: "Restaurant Owner", text: "POS system across 3 locations. Fixed an issue at midnight remotely. Incredible service.", rating: 5, date: "1 month ago", project: "POS Systems", avatar: "https://lh3.googleusercontent.com/a/default-user=s120-c" },
       { name: "Rudo Chigwedere", role: "Office Manager, Law Firm", text: "Networked our 3-floor office, 16 cameras, server room. Three years, still flawless.", rating: 5, date: "2 months ago", project: "Networking", avatar: "https://lh3.googleusercontent.com/a/default-user=s120-c" },
