@@ -160,7 +160,7 @@ function HeroSection() {
                 className={`font-heading font-bold leading-[0.88] tracking-tight ${
                   word === 'TECHNOLOGY.' ? 'text-[#60A5FA]' : 'text-white'
                 }`}
-                style={{ fontSize: 'clamp(3rem, 12vw, 10rem)' }}
+                style={{ fontSize: 'clamp(3rem, 7vw, 4.5rem)' }}
               >
                 {word}
               </h1>
@@ -581,7 +581,7 @@ function CTASection() {
 
       <div className="relative z-20 max-w-5xl mx-auto px-5 sm:px-8 lg:px-12 text-center">
         <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-80px' }} transition={{ duration: 0.8 }}>
-          <h2 className="font-heading font-bold text-white leading-[0.88] mb-8" style={{ fontSize: 'clamp(2.5rem, 8vw, 7rem)' }}>
+          <h2 className="font-heading font-bold text-white leading-[0.88] mb-8" style={{ fontSize: 'clamp(2.5rem, 7vw, 4.5rem)' }}>
             TECH<br /><span className="text-[#60A5FA]">PROBLEMS?</span><br />SOLVED.
           </h2>
           <p className="text-white/50 text-sm sm:text-base lg:text-lg max-w-lg mx-auto mb-10 leading-relaxed">{homeCta.subtitle}</p>
